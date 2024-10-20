@@ -14,35 +14,40 @@ struct ContentView: View {
         VStack(spacing: 28) {
             HStack {
                 Text("오늘의 지출")
+                    .font(.cookieGmarketMedium32)
                     
                 Spacer()
                 
                 Image(systemName: "list.bullet")
+                    .font(.system(size: 26))
             }
-            .font(.title).bold()
             
             VStack(spacing: 8) {
-                HStack {
+                HStack(spacing: 4) {
                     Text("태국(THB)")
+                        .font(.cookieGmarketMedium15)
+                    
+                    Image(systemName: "chevron.down")
+                        .font(.system(size: 10))
                     
                     Spacer()
                     
                     Text("1THB = 41 KRW")
-                        .fontWeight(.light)
+                        .font(.cookieGmarketLight12)
                 }
                 .padding(.horizontal, 12)
                 
                 HStack {
-                    TextField("지출할 금액을 입력해라", text: $expense)
+                    TextField("498 - 38 * 3", text: $expense)
+                        .font(.cookieGmarketMedium26)
                         .keyboardType(.numberPad)
                         
                     Spacer()
                     
                     Image(systemName: "checkmark")
+                        .font(.system(size: 26)).bold()
                         .foregroundColor(.black.opacity(0.2))
-                        .bold()
                 }
-                .font(.system(size: 26))
                 .padding(.vertical, 8)
                 .padding(.horizontal, 20)
                 .background(Color.cardBackground)

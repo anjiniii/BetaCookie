@@ -12,6 +12,11 @@
 		516C03EA2CC4CD110093A094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C03E92CC4CD110093A094 /* Assets.xcassets */; };
 		516C03ED2CC4CD110093A094 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C03EC2CC4CD110093A094 /* Preview Assets.xcassets */; };
 		516C03F42CC4CD4F0093A094 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 516C03F32CC4CD4F0093A094 /* .gitignore */; };
+		516C03F72CC4D3D90093A094 /* tan-type-co-glodok-display.otf in Resources */ = {isa = PBXBuildFile; fileRef = 516C03F62CC4D3D90093A094 /* tan-type-co-glodok-display.otf */; };
+		516C03FB2CC4D3E90093A094 /* GmarketSansBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 516C03F82CC4D3E90093A094 /* GmarketSansBold.otf */; };
+		516C03FC2CC4D3E90093A094 /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 516C03F92CC4D3E90093A094 /* GmarketSansMedium.otf */; };
+		516C03FD2CC4D3E90093A094 /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 516C03FA2CC4D3E90093A094 /* GmarketSansLight.otf */; };
+		516C04002CC4D95D0093A094 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C03FF2CC4D95D0093A094 /* FontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,12 @@
 		516C03E92CC4CD110093A094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516C03EC2CC4CD110093A094 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		516C03F32CC4CD4F0093A094 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		516C03F62CC4D3D90093A094 /* tan-type-co-glodok-display.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tan-type-co-glodok-display.otf"; sourceTree = "<group>"; };
+		516C03F82CC4D3E90093A094 /* GmarketSansBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansBold.otf; sourceTree = "<group>"; };
+		516C03F92CC4D3E90093A094 /* GmarketSansMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansMedium.otf; sourceTree = "<group>"; };
+		516C03FA2CC4D3E90093A094 /* GmarketSansLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansLight.otf; sourceTree = "<group>"; };
+		516C03FE2CC4D4480093A094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		516C03FF2CC4D95D0093A094 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,8 @@
 		516C03E42CC4CD100093A094 /* BetaCookie */ = {
 			isa = PBXGroup;
 			children = (
+				516C03FE2CC4D4480093A094 /* Info.plist */,
+				516C03F52CC4D3C90093A094 /* Fonts */,
 				516C03E52CC4CD100093A094 /* BetaCookieApp.swift */,
 				516C03E72CC4CD100093A094 /* ContentView.swift */,
 				516C03E92CC4CD110093A094 /* Assets.xcassets */,
@@ -68,6 +81,18 @@
 				516C03EC2CC4CD110093A094 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		516C03F52CC4D3C90093A094 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				516C03F82CC4D3E90093A094 /* GmarketSansBold.otf */,
+				516C03FA2CC4D3E90093A094 /* GmarketSansLight.otf */,
+				516C03F92CC4D3E90093A094 /* GmarketSansMedium.otf */,
+				516C03F62CC4D3D90093A094 /* tan-type-co-glodok-display.otf */,
+				516C03FF2CC4D95D0093A094 /* FontExtension.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +153,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516C03FB2CC4D3E90093A094 /* GmarketSansBold.otf in Resources */,
 				516C03ED2CC4CD110093A094 /* Preview Assets.xcassets in Resources */,
 				516C03F42CC4CD4F0093A094 /* .gitignore in Resources */,
+				516C03FC2CC4D3E90093A094 /* GmarketSansMedium.otf in Resources */,
+				516C03FD2CC4D3E90093A094 /* GmarketSansLight.otf in Resources */,
+				516C03F72CC4D3D90093A094 /* tan-type-co-glodok-display.otf in Resources */,
 				516C03EA2CC4CD110093A094 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516C04002CC4D95D0093A094 /* FontExtension.swift in Sources */,
 				516C03E82CC4CD100093A094 /* ContentView.swift in Sources */,
 				516C03E62CC4CD100093A094 /* BetaCookieApp.swift in Sources */,
 			);
@@ -279,6 +309,7 @@
 				DEVELOPMENT_TEAM = 99KH3TLG9V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BetaCookie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +340,7 @@
 				DEVELOPMENT_TEAM = 99KH3TLG9V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BetaCookie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
