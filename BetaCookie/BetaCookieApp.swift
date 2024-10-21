@@ -11,7 +11,7 @@ import SwiftUI
 struct BetaCookieApp: App {
     var body: some Scene {
         WindowGroup {
-            Content2View()
+            ContentView()
         }
     }
 }

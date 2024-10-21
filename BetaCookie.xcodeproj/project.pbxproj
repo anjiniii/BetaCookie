@@ -17,6 +17,9 @@
 		516C03FC2CC4D3E90093A094 /* GmarketSansMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 516C03F92CC4D3E90093A094 /* GmarketSansMedium.otf */; };
 		516C03FD2CC4D3E90093A094 /* GmarketSansLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 516C03FA2CC4D3E90093A094 /* GmarketSansLight.otf */; };
 		516C04002CC4D95D0093A094 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C03FF2CC4D95D0093A094 /* FontExtension.swift */; };
+		516C04022CC54F720093A094 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C04012CC54F720093A094 /* Test.swift */; };
+		516C04052CC556E30093A094 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C04042CC556E30093A094 /* ColorExtension.swift */; };
+		516C04072CC562580093A094 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C04062CC562580093A094 /* AnalysisView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		516C03FA2CC4D3E90093A094 /* GmarketSansLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansLight.otf; sourceTree = "<group>"; };
 		516C03FE2CC4D4480093A094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516C03FF2CC4D95D0093A094 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		516C04012CC54F720093A094 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		516C04042CC556E30093A094 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		516C04062CC562580093A094 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +73,9 @@
 			children = (
 				516C03E52CC4CD100093A094 /* BetaCookieApp.swift */,
 				516C03E72CC4CD100093A094 /* ContentView.swift */,
-				516C03F52CC4D3C90093A094 /* Font */,
+				516C04062CC562580093A094 /* AnalysisView.swift */,
+				516C04012CC54F720093A094 /* Test.swift */,
+				516C04032CC556D30093A094 /* Extension */,
 				516C03FE2CC4D4480093A094 /* Info.plist */,
 				516C03E92CC4CD110093A094 /* Assets.xcassets */,
 				516C03EB2CC4CD110093A094 /* Preview Content */,
@@ -93,6 +101,15 @@
 				516C03F62CC4D3D90093A094 /* tan-type-co-glodok-display.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		516C04032CC556D30093A094 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				516C03F52CC4D3C90093A094 /* Font */,
+				516C04042CC556E30093A094 /* ColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,8 +188,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				516C04002CC4D95D0093A094 /* FontExtension.swift in Sources */,
+				516C04022CC54F720093A094 /* Test.swift in Sources */,
 				516C03E82CC4CD100093A094 /* ContentView.swift in Sources */,
 				516C03E62CC4CD100093A094 /* BetaCookieApp.swift in Sources */,
+				516C04072CC562580093A094 /* AnalysisView.swift in Sources */,
+				516C04052CC556E30093A094 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
