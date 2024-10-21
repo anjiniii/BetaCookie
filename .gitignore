@@ -3,6 +3,5 @@ xcuserdata/
 Package.resolved
 
 *.xcconfig
-*.plist
 *.xcprivacy
 .DS_Store
